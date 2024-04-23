@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(#e66465, #9198e5) fixed;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+h1 {
+  font-weight: inherit;
+  margin-bottom: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
