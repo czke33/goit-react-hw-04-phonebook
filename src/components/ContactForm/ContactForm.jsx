@@ -15,7 +15,7 @@ import PropTypes from "prop-types";
     const number = form.elements.number.value;
     const id = nanoid();
 
-    this.props.onSubmit({ id, name, number });
+    props.onSubmit({ id, name, number });
 
     form.reset();
   };
